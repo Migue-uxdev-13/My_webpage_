@@ -1,0 +1,66 @@
+/* Este es un comentario en CSS */
+
+/* Estilos generales para toda la página */
+body {
+    font-family: Arial, sans-serif; /* Tipo de letra principal */
+    background-color: #f4f4f4; /* Un color de fondo gris claro */
+    color: #333; /* Color de texto principal (casi negro) */
+    line-height: 1.6; /* Espacio entre líneas de texto para que sea fácil de leer */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333; /* Fondo oscuro para el encabezado */
+    color: #fff; /* Texto blanco */
+    padding: 2rem 0; /* Espacio interior (arriba/abajo y a los lados) */
+    text-align: center; /* Centrar el texto */
+}
+
+h1, h2, h3 {
+    color: #5a67d8; /* Un color de acento azul/morado para los títulos */
+}
+
+main {
+    max-width: 800px; /* Ancho máximo para que no se estire demasiado en pantallas grandes */
+    margin: 20px auto; /* Centrar el contenido principal horizontalmente */
+    padding: 0 20px; /* Espacio a los lados para que el texto no pegue con el borde */
+}
+
+section {
+    background: #fff; /* Fondo blanco para las secciones */
+    margin-bottom: 20px; /* Espacio entre secciones */
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Una sombra sutil para dar profundidad */
+}
+
+.proyecto {
+    border-bottom: 1px solid #eee; /* Una línea para separar proyectos */
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.proyecto:last-child {
+    border-bottom: none; /* Quitar la línea del último proyecto */
+}
+
+button {
+    background-color: #5a67d8; /* Mismo color de acento que los títulos */
+    color: white;
+    padding: 10px 15px;
+    border: none; /* Quitar el borde feo del botón */
+    border-radius: 5px;
+    cursor: pointer; /* El cursor se convierte en una manita al pasar por encima */
+}
+
+button:hover {
+    background-color: #434190; /* Un color un poco más oscuro al pasar el mouse */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: #777;
+}
