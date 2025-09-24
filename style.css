@@ -10,6 +10,18 @@ body {
     padding: 0;
 }
 
+a {
+    color:cadetblue
+}
+
+a:visited {
+    color:blueviolet
+}
+
+a:hover, a:active {
+    color:rgb(181, 58, 58) ;
+}
+
 header {
     background-color: #333; /* Fondo oscuro para el encabezado */
     color: #fff; /* Texto blanco */

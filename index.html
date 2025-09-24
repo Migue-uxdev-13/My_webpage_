@@ -14,9 +14,9 @@
 
     <title> Miguel_arancibia_UX</title>
     <!-- Este es el título que aparece en la pestaña del navegador. ¡Cámbialo por tu nombre! -->
-     <link rel="icon" href="web_icon.png" type="image/x-icon">  <!--AGREGR EL PNJ A LA CARPETA Y DESCOMENTAR PARA PONER EL ICONO EN EL TAB -->
+     <link rel="icon" href="web_icon.png" type="image/x-icon" >  <!--AGREGR EL PNJ A LA CARPETA Y DESCOMENTAR PARA PONER EL ICONO EN EL TAB -->
 
-    <!-- Aquí conectamos nuestra hoja de estilos CSS. -->
+    <!-- Aquí conectamos nuestra hoja de estilos CSS. -->  
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -28,6 +28,20 @@
         <h1>Miguel Arancibia </h1>
         <p> UX designer / design engineering / <abbr title="User experience research">UXR</abbr> / Digital transformation</p>
     </header>
+    <nav>
+        <ul >
+            <li>
+                <a href="#sobre-mi">About me</a>
+            </li>
+            <li>
+                <a href="#proyectos"> Mis proyectos</a>
+            </li>
+            <li>
+                <a href="#contacto">Mi contacto</a>
+            </li>
+
+        </ul>
+    </nav>
     
     <main>
         <!-- La sección principal de tu contenido. -->
@@ -48,6 +62,7 @@
             <div class="proyecto">
                 <h3>Proyecto 1: Mi Portafolio</h3>
                 <p>Mi primer proyecto creando una página web personal desde cero con HTML, CSS y JavaScript.</p>
+                
             </div>
             <div class="proyecto">
                 <h3>Proyecto 2: (Próximamente)</h3>
@@ -60,8 +75,13 @@
                 </ul>
             </div>
             <div class="proyecto">
-                <h3>Proyecto 3: div creado por mi</h3>
-                <p>&nbsp;&nbsp; Este proyecto estara disponible prontamente</p> <!--agregué un espacion anterior al texto (como un tab)-->
+                <h3>Proyecto 3: Investigacion de usuario</h3>
+                <figure>
+                    <img src="img/td-what-is-user-research-illustration-01.avif" alt="Research_image" title="imagen portada proyecto investigacion" width="300" height="200" loading="lazy"/>
+                    <figcaption>This is a reference image of two way of research</figcaption>
+                </figure>
+
+                <p>&nbsp;&nbsp; Este proyecto estara disponible prontamente, y está muy influenciado por el libro <a href="https://www.mulebooks.com/just-enough-research">Just Enough Research</a> </p> <!--agregué un espacion anterior al texto (como un tab)-->
                 
             </div>
         </section>
@@ -72,6 +92,10 @@
             <!-- Usamos un botón para que JavaScript haga algo cuando le demos clic -->
             <button id="boton-contacto">Mostrar Email</button>
         </section>
+
+        <p>
+            <a href="#">Volver al inicio</a>
+        </p>
 
     </main>
 
