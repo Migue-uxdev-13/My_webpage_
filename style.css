@@ -44,9 +44,16 @@ section {
     margin-bottom: 20px; /* Espacio entre secciones */
     padding: 20px;
     border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Una sombra sutil para dar profundidad */
+    box-shadow: 0 20px 20px rgba(2,0,0,0.1); /* Una sombra sutil para dar profundidad */
 }
 
+article {
+    background: #fff; /* Fondo blanco para las secciones */
+    margin-bottom: 20px; /* Espacio entre secciones */
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Una sombra sutil para dar profundidad */
+}
 .proyecto {
     border-bottom: 1px solid #eee; /* Una línea para separar proyectos */
     padding-bottom: 10px;

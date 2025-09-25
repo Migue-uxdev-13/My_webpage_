@@ -28,7 +28,7 @@
         <h1>Miguel Arancibia </h1>
         <p> UX designer / design engineering / <abbr title="User experience research">UXR</abbr> / Digital transformation</p>
     </header>
-    <nav>
+    <nav>  <!--Puede haber mas de 1 navigator, pero en ese caso es importante etiquetarlo para las herramientas de accesibilidad, utilizando por ejemplo "aria-label" -->
         <ul >
             <li>
                 <a href="#sobre-mi">About me</a>
@@ -46,25 +46,34 @@
     <main>
         <!-- La sección principal de tu contenido. -->
 
-        <section id="sobre-mi">
+        <article id="sobre-mi">
             <!-- Una sección para hablar sobre ti. -->
             <h2>Sobre Mí</h2>
             <p>
                 Hola, me llamo Miguel. Me apasiona la tecnología y estoy aprendiendo a crear páginas web increíbles, vivo en santiago de chile. 
                 <br> Este es mi primer proyecto y estoy emocionado/a de compartir mi viaje contigo.
             </p>
-        </section>
+        </article>
         
 
-        <section id="proyectos">
+        <article id="proyectos">
             <!-- Una sección para mostrar tus proyectos. -->
             <h2>Mis Proyectos</h2>
-            <div class="proyecto">
+            <section class="proyecto">
                 <h3>Proyecto 1: Mi Portafolio</h3>
                 <p>Mi primer proyecto creando una página web personal desde cero con HTML, CSS y JavaScript.</p>
                 
-            </div>
-            <div class="proyecto">
+                
+
+                <figure>
+                    <figcaption>
+                       <p> Por ejemplo este es el <mark>tag</mark> para un titulo <br><br>
+                            <code> &lt;h3&gt; Soy un titulo! &lt;h3&gt;</code>
+                        </p>
+                    </figcaption>
+                </figure> <!--No necesariamente  el tag de figura debe ser una imagen-->
+            </section>
+            <section class="proyecto">
                 <h3>Proyecto 2: (Próximamente)</h3>
                 <p>Aquí pondré mi siguiente gran idea., la cual consta de:</p>
                 <ul>
@@ -73,25 +82,31 @@
                     <li><strong> Muy gamificada</strong></li>
                     
                 </ul>
-            </div>
-            <div class="proyecto">
+                <aside>
+                    <details> <summary> Quieres saber de que se trata la idea? </summary>
+                        
+                        <p>Todavía no lo se ... XP</p>
+                    </details>
+                </aside>
+            </section>
+            <section class="proyecto">
                 <h3>Proyecto 3: Investigacion de usuario</h3>
                 <figure>
-                    <img src="img/td-what-is-user-research-illustration-01.avif" alt="Research_image" title="imagen portada proyecto investigacion" width="300" height="200" loading="lazy"/>
+                    <img src="img/td-what-is-user-research-illustration-01.avif" alt="Research_image" title="imagen portada proyecto investigacion" width="300" height="200" loading="lazy">
                     <figcaption>This is a reference image of two way of research</figcaption>
                 </figure>
 
                 <p>&nbsp;&nbsp; Este proyecto estara disponible prontamente, y está muy influenciado por el libro <a href="https://www.mulebooks.com/just-enough-research">Just Enough Research</a> </p> <!--agregué un espacion anterior al texto (como un tab)-->
                 
-            </div>
-        </section>
+            </section>
+        </article>
 
-        <section id="contacto">
+        <article id="contacto">
             <h2>Contacto</h2>
             <p>Puedes encontrarme en mis redes sociales o enviarme un mensaje.</p>
             <!-- Usamos un botón para que JavaScript haga algo cuando le demos clic -->
             <button id="boton-contacto">Mostrar Email</button>
-        </section>
+        </article>
 
         <p>
             <a href="#">Volver al inicio</a>
@@ -101,7 +116,7 @@
 
     <footer>
         <!-- El pie de página, usualmente para derechos de autor o enlaces secundarios. -->
-        <p>© 2025 - &Mscr; iguel Arancibia Apiolaza - Todos los derechos reservados</p>
+        <p>&copy; 2025 - &Mscr; iguel Arancibia Apiolaza - Todos los derechos reservados</p>
     </footer>
 
     <!-- Al final del body, conectamos nuestro archivo JavaScript. -->
